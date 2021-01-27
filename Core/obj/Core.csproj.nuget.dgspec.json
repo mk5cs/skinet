@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Core\\Core.csproj": {}
+    "E:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Core\\Core.csproj": {}
   },
   "projects": {
-    "e:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Core\\Core.csproj": {
+    "E:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "E:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "e:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Core\\Core.csproj",
+        "projectPath": "E:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "e:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Core\\obj\\",
+        "outputPath": "E:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

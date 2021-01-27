@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r7k8OPMQfQvGBPoFqAZ0D565tdXTmdBA6LbTM1TC2FpwvHdGGcGN/fr4F2bh2Vsj1/yKLUIKksN+uZ35enhdpA==",
+  "dgSpecHash": "BqcNBqeNCOf2JvXD2e1LGJp/0MglOHx41n2Qdv2lWAzSJUy8p+LIkxYLzkUnIg54r8NysEbXBtJrivcNBawebQ==",
   "success": true,
-  "projectFilePath": "e:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "E:\\MiCarpeta\\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\\Proyecto\\skinet\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.2\\microsoft.data.sqlite.core.5.0.2.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
