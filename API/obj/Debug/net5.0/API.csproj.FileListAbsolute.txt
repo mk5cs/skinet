@@ -59,3 +59,5 @@ E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 
 E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Infrastructure.pdb
 E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Core.pdb
 E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\AutoMapper.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
