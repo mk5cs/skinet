@@ -11,28 +11,32 @@ import { ShopParams } from '../shared/models/shopParams';
   providedIn: 'root'
 })
 export class ShopService {
-  baseUrl = 'https://localhost:5001/api/'
+  baseUrl = 'https://localhost:5001/api/';
 
   constructor(private http: HttpClient) { }
 
   getProducts(shopParams: ShopParams) {
 
     let params = new HttpParams();
-    if (shopParams.brandId) {
+    if (shopParams.brandId !== 0) {
       params = params.append('brandId', shopParams.brandId.toString());
     }
 
-    if (shopParams.typeId) {
+    if (shopParams.typeId !== 0) {
       params = params.append('typeId', shopParams.typeId.toString());
     }
 
-    if (shopParams.sort) {
-      params = params.append('sort', shopParams.sort);
+    if (shopParams.search) {
+      params = params.append('search', shopParams.search);
     }
 
-    var products = this.http.get<IPagination>(this.baseUrl + 'products', { observe: 'response', params })
+    params = params.append('sort', shopParams.sort);
+    params = params.append('pageIndex', shopParams.pageNumber.toString());
+    params = params.append('pageIndex', shopParams.pageSize.toString());
+
+    let products = this.http.get<IPagination>(this.baseUrl + 'products', { observe: 'response', params })
       .pipe(
-        map(response => {
+        map(response  => {
           return response.body;
         })
       );
