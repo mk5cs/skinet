@@ -12,6 +12,10 @@ import { PagerComponent } from './components/pager/pager.component';
     CommonModule,
     PaginationModule.forRoot(),
   ],
-  exports: [PaginationModule]
+  exports: [
+    PaginationModule,
+    PagerComponent,
+    PagingHeaderComponent,
+  ]
 })
 export class SharedModule { }
