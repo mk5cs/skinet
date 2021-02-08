@@ -1,4 +1,5 @@
 
+using System.IO;
 using API.Extensions;
 using API.Helpers;
 using API.Middleware;
@@ -9,6 +10,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using StackExchange.Redis;
 
 namespace API
 {
@@ -21,11 +23,24 @@ namespace API
             _configuration = configuration;
         }
 
-
-
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
+            services.AddAutoMapper(typeof(MappingProfiles));
+            services.AddControllers();
+            services.AddDbContext<StoreContext>(s =>
+                s.UseSqlite(_configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddSingleton<IConnectionMultiplexer>(c =>
+            {
+                var configuration = ConfigurationOptions
+                    .Parse(_configuration.GetConnectionString("Redis"),
+                    true);
+                return ConnectionMultiplexer.Connect(configuration);
+            });
+            services.AddApplicationServices();
+            services.AddSwaggerDocumentation();
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy", policy =>
@@ -34,13 +49,6 @@ namespace API
                 });
             });
 
-            services.AddAutoMapper(typeof(MappingProfiles));
-            services.AddControllers();
-            services.AddDbContext<StoreContext>(s =>
-                s.UseSqlite(_configuration.GetConnectionString("DefaultConnection")));
-            services.AddApplicationServices();
-            services.AddSwaggerDocumentation();
-            
 
 
         }
