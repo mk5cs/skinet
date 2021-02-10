@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { BasketService } from 'src/app/basket/basket.service';
 import { IProduct } from 'src/app/shared/models/product';
 
 
@@ -10,15 +11,13 @@ import { IProduct } from 'src/app/shared/models/product';
 export class ProductItemComponent implements OnInit {
 
   @Input() product!: IProduct;
-  constructor() { }
+  constructor(private basketService: BasketService) { }
 
   ngOnInit(): void {
-    this.assertInputsProvided();
   }
-  private assertInputsProvided(): void {
-  if (!this.product) {
-    throw (new Error('The required input was not provided'));
+
+  addItemToBasket() {
+    this.basketService.addItemToBasket(this.product);
   }
-}
 
 }
