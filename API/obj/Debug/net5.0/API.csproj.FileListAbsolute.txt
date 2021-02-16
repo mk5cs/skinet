@@ -75,3 +75,15 @@ E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 
 E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Hl7.Fhir.Support.Poco.dll
 E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Hl7.FhirPath.dll
 E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\MiCarpeta\Udemy  Learn to build an e-commerce app with .Net Core and Angular 20205\Proyecto\skinet\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
