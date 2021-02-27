@@ -11,9 +11,10 @@ import { ErrorInterceptorInterceptor } from './core/interceptors/error-intercept
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { LoadingInterceptor } from './core/interceptors/loading.interceptor';
 import { JwtInterceptor } from './core/interceptors/jwt.interceptor';
+import { OrdersComponent } from './order/orders/orders.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, OrdersComponent],
   imports: [
     HttpClientModule,
     BrowserModule,

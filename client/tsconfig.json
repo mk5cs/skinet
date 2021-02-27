@@ -8,6 +8,8 @@
     "forceConsistentCasingInFileNames": true,
 
     "strict": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks":false,
     "noImplicitReturns": true,
     "noImplicitAny": false,
     "noFallthroughCasesInSwitch": true,

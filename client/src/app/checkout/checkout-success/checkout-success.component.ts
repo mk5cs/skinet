@@ -8,7 +8,7 @@ import { IOrder } from 'src/app/shared/models/order';
   styleUrls: ['./checkout-success.component.scss'],
 })
 export class CheckoutSuccessComponent implements OnInit {
-  order!: IOrder;
+  order: IOrder;
 
   constructor(private router: Router) {
     const navigation = this.router.getCurrentNavigation();
